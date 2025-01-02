@@ -13,7 +13,8 @@ watchEffect(() => {
         <NuxtLink :to="`/deck/${i}`">Deck {{ i }}</NuxtLink>
       </div>
     </div>
+    <NuxtPage />
     <!-- <NuxtPage :key="undefined" /> -->
-    <RouterView />
+    <!-- <RouterView /> -->
   </div>
 </template>

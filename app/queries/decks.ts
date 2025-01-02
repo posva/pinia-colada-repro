@@ -1,4 +1,5 @@
-import { useRoute } from "vue-router";
+// import { useRoute } from "vue-router";
+
 type Deck = {
   id: number;
   name: string;
